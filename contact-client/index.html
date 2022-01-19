@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css" />
+    <title>Kontaktformular</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Kontaktformular</h2>
+      <!--  <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="firstName">Firstname</label>
+          <input type="text" id="firstName" placeholder="Enter your firstname" />
+          <small>Error message</small>
+        </div> -->
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Email eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="gender">Geschlecht</label>
+          <input type="radio" id="gender" value="male"/>Männlich
+          <input type="radio" id="gender" value="female"/>Weiblich
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="firstName">Vorname</label>
+          <input type="text" id="firstName" placeholder="Vornamen eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="lastName">Nachname</label>
+          <input type="text" id="lastName" placeholder="Nachnamen eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="phone">Telefonnummer</label>
+          <input type="text" id="phone" placeholder="Telefonnummer eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="adress">Adresse</label>
+          <input type="text" id="adress" placeholder="Adresse eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="City">Ort</label>
+          <input type="text" id="city" placeholder="Ort eingeben" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="country">Land</label>
+          <input type="text" id="country" placeholder="Land eingeben" />
+          <small>Error message</small>
+        </div>
+        <!-- Aufgabe: Fügen Sie folgende Input-Elemente hinzu:
+          lastName, subject, description (textarea), phone
+        -->
+        <!-- Begin -->
+
+        <!-- Ende -->
+        <button type="submit">senden</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+    <script src="script/ui.js"></script>
+  </body>
+</html>
